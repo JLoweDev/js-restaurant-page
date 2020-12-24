@@ -25,13 +25,40 @@ function createBtn(id, text) {
 
 function createNav() {
     const nav = document.createElement('nav');
-    nav.setAttribute('id', id);
+    nav.setAttribute('id', 'nav');
     const aboutBtn = createBtn('about', 'about');
     const menuBtn = createBtn('menu', 'menu');
     const contactBtn = createBtn('contact', 'contact');
     nav.appendChild(menuBtn);
     nav.appendChild(aboutBtn);
     nav.appendChild(contactBtn);
+}
+
+function createMain() {
+    const main = document.createElement('main');
+    main.setAttribute('id', 'tab-content');
+    return main;
+}
+
+function createFooter() {
+    const footer = document.createElement('footer');
+    footer.setAttribute('class', 'foot-container');
+    const p1 = document.createElement('p');
+    p1.setAttribute('class', 'tab');
+    p1.textContent = 'Wynette Grill © 2020';
+    const p2 = document.createElement('p');
+    p2.setAttribute('class', 'tab');
+    p2.textContent = 'A truly unforgettable experience.'
+    const p3 = document.createElement('p');
+    p3.setAttribute('class', 'tab');
+    p3.textContent = '✆ 0121456732';
+    footer.appendChild(p1);
+    footer.appendChild(p2);
+    footer.appendChild(p3);
+}
+
+function loadPage() {
+    const content = document.getElementById('content');
 }
 
 export default loadPage;
