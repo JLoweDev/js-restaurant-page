@@ -13,4 +13,14 @@ function createHeader() {
     return header;
 }
 
+function createBtn(id, text) {
+    const btn = document.createElement('button');
+    btn.setAttribute('id', id);
+    const span = document.createElement('span');
+    span.textContent = text;
+    btn.appendChild(span);
+    btn.classList.add('tab');
+    return btn;
+}
+
 export default loadPage;
