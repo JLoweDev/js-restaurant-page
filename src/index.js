@@ -1,7 +1,7 @@
 import loadPage from './modules/init';
 import loadHome from './modules/home';
 import loadMenu from './modules/menu';
-import loadContact from './modules/menu';
+import loadContact from './modules/contact';
 
 function addNavEvents() {
     const menuBtn = document.getElementById('menu');
