@@ -59,6 +59,14 @@ function createFooter() {
 
 function loadPage() {
     const content = document.getElementById('content');
+    const header = createHeader();
+    content.appendChild(header);
+    const nav = createNav();
+    content.appendChild(nav);
+    const main = createMain();
+    content.appendChild(main);
+    const footer = createFooter();
+    content.appendChild(footer);
 }
 
 export default loadPage;
