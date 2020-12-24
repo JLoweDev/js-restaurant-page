@@ -14,7 +14,7 @@ function addNavEvents() {
 
 function init() {
     loadPage();
-    loadHome();
+    //loadHome();
     addNavEvents();
 }
 
