@@ -38,6 +38,7 @@ function createNav() {
 function createMain() {
     const main = document.createElement('main');
     main.setAttribute('id', 'tab-content');
+    main.setAttribute('class', 'flexed');
     return main;
 }
 
