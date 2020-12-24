@@ -32,6 +32,7 @@ function createNav() {
     nav.appendChild(menuBtn);
     nav.appendChild(aboutBtn);
     nav.appendChild(contactBtn);
+    return nav;
 }
 
 function createMain() {
@@ -55,6 +56,7 @@ function createFooter() {
     footer.appendChild(p1);
     footer.appendChild(p2);
     footer.appendChild(p3);
+    return footer;
 }
 
 function loadPage() {
