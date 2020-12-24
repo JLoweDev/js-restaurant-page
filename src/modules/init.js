@@ -23,4 +23,15 @@ function createBtn(id, text) {
     return btn;
 }
 
+function createNav() {
+    const nav = document.createElement('nav');
+    nav.setAttribute('id', id);
+    const aboutBtn = createBtn('about', 'about');
+    const menuBtn = createBtn('menu', 'menu');
+    const contactBtn = createBtn('contact', 'contact');
+    nav.appendChild(menuBtn);
+    nav.appendChild(aboutBtn);
+    nav.appendChild(contactBtn);
+}
+
 export default loadPage;
