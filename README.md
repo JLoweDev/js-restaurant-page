@@ -5,5 +5,5 @@
 1. ~~Find images for foods - 2~~
 1. ~~Check styling on foods for menu item~~
 1. ~~Create restaurant footer~~
-1. Convert each part of page to a js module
-1. Tie them all together
+1. ~~Convert each part of page to a js module~~
+1. ~~Tie them all together~~
